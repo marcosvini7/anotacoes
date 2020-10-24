@@ -1,0 +1,61 @@
+object form_confirmar: Tform_confirmar
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'form_confirmar'
+  ClientHeight = 125
+  ClientWidth = 418
+  Color = 13619199
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 32
+    Width = 385
+    Height = 23
+    Caption = 'Deseja realmente apagar todas as anota'#231#245'es?'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 8
+    Top = 72
+    Width = 185
+    Height = 33
+    Caption = 'Confimar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 216
+    Top = 72
+    Width = 177
+    Height = 33
+    Caption = 'Cancelar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+end
